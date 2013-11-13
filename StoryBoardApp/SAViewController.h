@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface SAViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *tfInput;
 
 @end

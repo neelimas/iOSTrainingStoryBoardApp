@@ -21,6 +21,8 @@
 		CEDAC5DD183285090074911E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAC5BF183285090074911E /* UIKit.framework */; };
 		CEDAC5E5183285090074911E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEDAC5E3183285090074911E /* InfoPlist.strings */; };
 		CEDAC5E7183285090074911E /* StoryBoardAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAC5E6183285090074911E /* StoryBoardAppTests.m */; };
+		CEDAC5F21832868E0074911E /* SASecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAC5F11832868E0074911E /* SASecondViewController.m */; };
+		CEDAC5F31832868E0074911E /* SASecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAC5F11832868E0074911E /* SASecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		CEDAC5E2183285090074911E /* StoryBoardAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryBoardAppTests-Info.plist"; sourceTree = "<group>"; };
 		CEDAC5E4183285090074911E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEDAC5E6183285090074911E /* StoryBoardAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryBoardAppTests.m; sourceTree = "<group>"; };
+		CEDAC5F01832868E0074911E /* SASecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASecondViewController.h; sourceTree = "<group>"; };
+		CEDAC5F11832868E0074911E /* SASecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 				CEDAC5D1183285090074911E /* SAViewController.m */,
 				CEDAC5D3183285090074911E /* Images.xcassets */,
 				CEDAC5C2183285090074911E /* Supporting Files */,
+				CEDAC5F01832868E0074911E /* SASecondViewController.h */,
+				CEDAC5F11832868E0074911E /* SASecondViewController.m */,
 			);
 			path = StoryBoardApp;
 			sourceTree = "<group>";
@@ -252,6 +258,7 @@
 			files = (
 				CEDAC5CC183285090074911E /* SAAppDelegate.m in Sources */,
 				CEDAC5D2183285090074911E /* SAViewController.m in Sources */,
+				CEDAC5F21832868E0074911E /* SASecondViewController.m in Sources */,
 				CEDAC5C8183285090074911E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDAC5F31832868E0074911E /* SASecondViewController.m in Sources */,
 				CEDAC5E7183285090074911E /* StoryBoardAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

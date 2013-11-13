@@ -7,6 +7,7 @@
 //
 
 #import "SAViewController.h"
+#import "SASecondViewController.h"
 
 @interface SAViewController ()
 
@@ -24,6 +25,16 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([segue.identifier isEqual:@"mySegue"])
+    {
+        SASecondViewController *svc = (SASecondViewController *) [segue destinationViewController];
+        svc.textValue = self.tfInput.text;
+    }
+    
 }
 
 @end
